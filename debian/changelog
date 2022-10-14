@@ -1,0 +1,49 @@
+node-promise (8.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Update acorn patch to be compliant with acorn 8
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 09 Oct 2020 17:51:34 +0200
+
+node-promise (8.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto install
+  * New upstream version 8.1.0 (Closes: #914614)
+  * Add patch for acorn 6 (Closes: #954693)
+  * Add dependency to node-asap
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 22 Mar 2020 20:58:55 +0100
+
+node-promise (8.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Modernize packaging
+  * Update bundled asap to 2.0.6
+  * Enable autopkgtest
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 03 Jan 2018 18:27:52 +0530
+
+node-promise (5.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #747224)
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Tue, 06 May 2014 20:38:06 +0200

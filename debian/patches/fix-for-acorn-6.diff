@@ -1,0 +1,16 @@
+Description: fix for acorn 6
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: no
+Last-Update: 2020-03-22
+
+--- a/build.js
++++ b/build.js
+@@ -3,7 +3,7 @@
+ var fs = require('fs');
+ var rimraf = require('rimraf');
+ var acorn = require('acorn');
+-var walk = require('acorn/dist/walk');
++var walk = require('acorn-walk');
+ var crypto = require('crypto');
+ 
+ var shasum = crypto.createHash('sha512');
